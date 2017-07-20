@@ -47,7 +47,7 @@ QUIET ?= 1
 # Application specific definitions and includes
 APPLICATION_NAME ?= IMU\ Unit
 # CoAP broker server information
-BROKER_ADDR ?= 2001:660:3207:102::4
+BROKER_ADDR ?= fdaa:bb:cc:dd::1
 BROKER_PORT ?= 5683
 
 DIRS += $(CURDIR)/../../modules/coap_common
