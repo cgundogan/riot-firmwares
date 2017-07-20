@@ -41,7 +41,7 @@ USEMODULE += coap_led
 QUIET ?= 1
 
 # Application specific definitions and includes
-APPLICATION_NAME ?= Node\ LED
+APPLICATION_NAME ?= Node\ LED\ \(Prague\)
 # CoAP broker server information
 BROKER_ADDR ?= fdaa:bb:cc:dd::1
 BROKER_PORT ?= 5683

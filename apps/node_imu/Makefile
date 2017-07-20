@@ -45,7 +45,7 @@ USEMODULE += coap_imu
 QUIET ?= 1
 
 # Application specific definitions and includes
-APPLICATION_NAME ?= IMU\ Unit
+APPLICATION_NAME ?= IMU\ Unit\ \(Prague\)
 # CoAP broker server information
 BROKER_ADDR ?= fdaa:bb:cc:dd::1
 BROKER_PORT ?= 5683
