@@ -59,6 +59,7 @@ int main(void)
     /* start coap server loop */
     gcoap_register_listener(&_listener);
     init_beacon_sender();
+    init_btn_thread();
 
     puts("All up, running the shell now");
     char line_buf[SHELL_DEFAULT_BUFSIZE];

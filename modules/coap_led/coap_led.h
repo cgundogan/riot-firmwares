@@ -11,6 +11,8 @@ extern "C" {
 
 ssize_t led_handler(coap_pkt_t* pdu, uint8_t *buf, size_t len);
 
+void init_btn_thread(void);
+
 #ifdef __cplusplus
 }
 #endif
